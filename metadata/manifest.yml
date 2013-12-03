@@ -1,0 +1,25 @@
+---
+Name: testplugin
+Cartridge-Short-Name: MY
+Display-Name: Mock Plugin Cartridge 0.1
+Description: A mock plugin cartridge for development use only.
+Version: '0.1'
+License: "None"
+Vendor: scnu
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: luke
+Categories:
+ - embedded
+Scaling:
+  Min: 1
+  Max: 1
+Group-Overrides:
+- components:
+  - testplugin
+  - simplecart
+Endpoints:
+- Private-IP-Name: EXAMPLE_IP1
+  Private-Port-Name: EXAMPLE_PORT1
+  Private-Port: 8080
+  Public-Port-Name: EXAMPLE_PUBLIC_PORT1
+  Protocols: [tcp]

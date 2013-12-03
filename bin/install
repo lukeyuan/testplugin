@@ -1,0 +1,7 @@
+#!/bin/bash -e
+
+# Mock cartridge for testing and verifying node platform code. This is
+# not an example of how to write a well-formed cartridge.
+echo "install success"
+
+exit 0
