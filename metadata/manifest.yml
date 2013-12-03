@@ -3,6 +3,7 @@ Name: testplugin
 Cartridge-Short-Name: MY
 Display-Name: Mock Plugin Cartridge 0.1
 Description: A mock plugin cartridge for development use only.
+Source-Url: https://github.com/lukeyuan/testplugin.git
 Version: '0.1'
 License: "None"
 Vendor: scnu
